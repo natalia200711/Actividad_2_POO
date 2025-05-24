@@ -52,3 +52,15 @@ public class Main {
         }
         return (double) suma / personas.size();
     }
+
+    // Método para contar cuántas personas son de cierto género
+    public static int contarGenero(ArrayList<Persona> personas, String generoBuscado) {
+        int contador = 0;
+        for (Persona p : personas) {
+            if (p.getGenero().equalsIgnoreCase(generoBuscado)) {
+                contador++;
+            }
+        }
+        return contador;
+    }
+}
