@@ -43,3 +43,12 @@ public class Main {
 
         scanner.close();
     }
+
+    // Método para calcular el promedio de edades
+    public static double calcularPromedioEdad(ArrayList<Persona> personas) {
+        int suma = 0;
+        for (Persona p : personas) {
+            suma += p.getEdad();
+        }
+        return (double) suma / personas.size();
+    }
