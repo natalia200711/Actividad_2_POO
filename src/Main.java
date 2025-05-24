@@ -29,3 +29,9 @@ public class Main {
                 System.out.println("Género inválido. Persona no registrada.");
             }
         }
+
+        // Mostrar nombres y géneros
+        System.out.println("\n--- Nombres y géneros capturados ---");
+        for (Persona p : personas) {
+            System.out.println("Nombre: " + p.getNombre() + " | Género: " + p.getGenero());
+        }
