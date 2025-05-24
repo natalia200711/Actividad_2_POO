@@ -5,3 +5,10 @@ public class Masculino {
     public Masculino(String nombre, String apellido, int edad) {
         super(nombre, apellido, "Masculino", edad);
     }
+
+    // Implementación específica del método abstracto
+    @Override
+    public String descripcionGenero() {
+        return "Masculino";
+    }
+}
