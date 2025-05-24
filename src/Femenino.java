@@ -5,3 +5,10 @@ public class Femenino extends Persona{
     public Femenino(String nombre, String apellido, int edad) {
         super(nombre, apellido, "Femenino", edad);
     }
+
+    // Implementación específica del método abstracto
+    @Override
+    public String descripcionGenero() {
+        return "Femenino";
+    }
+}
