@@ -35,3 +35,8 @@ public class Main {
         for (Persona p : personas) {
             System.out.println("Nombre: " + p.getNombre() + " | Género: " + p.getGenero());
         }
+
+        // Mostrar estadísticas
+        System.out.println("\nPromedio de edad: " + calcularPromedioEdad(personas));
+        System.out.println("Cantidad de personas Masculino: " + contarGenero(personas, "Masculino"));
+        System.out.println("Cantidad de personas Femenino: " + contarGenero(personas, "Femenino"));
