@@ -1,5 +1,5 @@
 // Clase que hereda de Persona y representa a un individuo masculino
-public class Masculino {
+public class Masculino extends Persona{
 
     // Constructor que automáticamente define el género como "Masculino"
     public Masculino(String nombre, String apellido, int edad) {
