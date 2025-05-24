@@ -6,3 +6,5 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Persona> personas = new ArrayList<>();
+
+        System.out.println("----- REGISTRO DE PERSONAS -----");
