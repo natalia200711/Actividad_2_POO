@@ -40,3 +40,6 @@ public class Main {
         System.out.println("\nPromedio de edad: " + calcularPromedioEdad(personas));
         System.out.println("Cantidad de personas Masculino: " + contarGenero(personas, "Masculino"));
         System.out.println("Cantidad de personas Femenino: " + contarGenero(personas, "Femenino"));
+
+        scanner.close();
+    }
