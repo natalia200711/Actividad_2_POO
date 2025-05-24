@@ -20,3 +20,12 @@ public class Main {
             String genero = scanner.nextLine().trim();
             System.out.print("Edad: ");
             int edad = Integer.parseInt(scanner.nextLine());
+
+            if (genero.equalsIgnoreCase("Masculino")) {
+                personas.add(new Masculino(nombre, apellido, edad));
+            } else if (genero.equalsIgnoreCase("Femenino")) {
+                personas.add(new Femenino(nombre, apellido, edad));
+            } else {
+                System.out.println("Género inválido. Persona no registrada.");
+            }
+        }
