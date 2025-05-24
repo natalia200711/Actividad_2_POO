@@ -25,3 +25,6 @@ public Persona(String nombre, String apellido, String genero, int edad) {
     public int getEdad() {
         return edad;
     }
+
+    public abstract String descripcionGenero();
+}
